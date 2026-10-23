@@ -1,0 +1,100 @@
+/* Edición Caribe: portada gráfica y superficie de lectura crema. */
+:root{--reader-size:17px;--paper:#fff2e8;--ink:#241b22;--paper-sub:#67535e;--paper-line:#d9bfc5}
+.hero{background:#ff8c63;border-color:#ffad8a;color:var(--ink);padding:44px 40px;min-height:430px}
+.hero:before{height:7px;background:linear-gradient(90deg,#ed4e9e,#ff7043)}
+.hero:after{display:none}
+.hero h1{position:relative;z-index:1;color:#100a0f;font-size:clamp(54px,5vw,78px);line-height:1.04;max-width:75%;margin-bottom:24px}
+.hero h1 span{color:#522133}
+.hero .eyebrow{position:relative;color:#542636;max-width:85%;font-size:11px}
+.hero p{position:relative;z-index:1;color:#3b2531;font-size:18px;font-weight:500;max-width:35ch}
+.hero-mark{position:absolute;right:-2%;top:16%;width:38%;height:68%;object-fit:contain;filter:brightness(0);opacity:.09;transform:rotate(-9deg);pointer-events:none;z-index:0}
+.hero .hero-actions{max-width:100%;z-index:1}
+.hero .primary{background:#100a0f;border-color:#100a0f;color:#fff2e8;box-shadow:none}
+.hero .secondary{color:#241b22;background:rgba(255,242,232,.35);border-color:#743f43}
+.hero-edition{position:relative;margin-top:30px;font-size:12px;font-weight:650;color:#542636;letter-spacing:.3px}
+.catalog-head{background:linear-gradient(105deg,#3b2531,#21151d);border-color:#80505f;border-left-width:5px}
+.category-card{background:#1c161e;border-color:#4a3544;border-top:3px solid #a66870}
+.category-icon{background:#ff9c79;color:#241b22;border-color:#ffb598;box-shadow:inset 0 2px 1px rgba(255,255,255,.25)}
+.category-card:hover{background:#2d1f2a;border-color:#ff8c63}
+.category-card h2{font-size:18px}
+.reading-path{border-color:#725060;background:linear-gradient(125deg,#3b2531,#17171d)}
+.reading-path:first-child{border-top:3px solid #ff8c63}.reading-path:last-child{border-top:3px solid #ed4e9e}
+.practice-invite{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:36px 0;padding:28px;border:1px solid #835569;border-radius:14px;background:#3b2531}
+.practice-invite .eyebrow{margin-bottom:8px}.practice-invite h2{font-size:26px;line-height:1.25;letter-spacing:-.6px;margin:0 0 12px}.practice-invite p{font-size:15px;color:#e4c7d4;line-height:1.7;margin:0}.practice-invite>a{flex-shrink:0}
+.reader-tools{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap;margin:0 0 26px;font-size:12px;color:#c9b5c1}
+.reader-tools>span{margin-right:auto;font-size:12px}.reader-tools output{min-width:45px;text-align:right;font-variant-numeric:tabular-nums}
+.reader-size{border:1px solid #685161;background:#211821;color:#fff2e8;min-width:44px;min-height:44px;padding:8px 11px;border-radius:8px;font-size:14px;line-height:1.4}
+.reader-size[data-action="font-reset"]{font-size:12px}.reader-size:hover:not(:disabled){border-color:#ff8c63;background:#3b2531}.reader-size:disabled{opacity:.4;cursor:default}
+.article-body{max-width:68ch;background:var(--paper);color:var(--ink);border:1px solid #f6ae87;border-radius:14px;padding:clamp(24px,3vw,38px);font-size:var(--reader-size);line-height:1.9}
+.article-body p{color:var(--ink)}
+.article-body>.eyebrow{color:#823745}
+.article-body h2{color:#3b2531;font-size:1.35em;margin-top:32px}
+.article-body .rule-label{font-size:.76em;letter-spacing:1.3px;text-transform:uppercase;margin:0 0 24px;color:#684353}
+.article-body a{color:#823745;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.article-body .example{background:transparent;border:1px solid #a5bba0;border-top:4px solid #3f7541;font-size:.91em;padding:20px}
+.article-body .example h3{color:#315c34;font-size:.93em}.article-body .example.bad{background:transparent;border-color:#c69a9e;border-top-color:#a63d4c}
+.article-body .example.bad h3{color:#8b2439}.article-body .example p{color:var(--ink);font-size:inherit}
+.article-body .source-note{border-top-color:var(--paper-line);color:var(--paper-sub)}
+.article-body .source-note summary,.article-body .source-note p,.article-body .source-note small{color:var(--paper-sub)}
+.article-body .glossary dt{color:#3b2531;font-size:1.15em}.article-body .glossary dd{font-size:inherit;color:var(--ink)}.article-body .glossary>div{border-bottom-color:var(--paper-line)}
+.article-body .source-note li{margin-block:8px}.source-external{overflow-wrap:anywhere}
+.robbery-comparison{background:var(--paper);color:var(--ink);border-radius:14px;padding:26px;min-width:0;font-size:var(--reader-size);line-height:1.75}
+.article-body .robbery-comparison{padding:0;border-radius:0}
+.table-scroll{overflow:auto;max-width:100%;border:1px solid #b99aa6;border-radius:10px;scrollbar-width:thin}
+.robbery-comparison table{width:100%;border-collapse:collapse;font-size:.89em;line-height:1.5;min-width:410px;font-variant-numeric:tabular-nums}
+.robbery-comparison caption{text-align:left;background:#ead2d1;color:#542c3b;font-size:.82em;font-weight:750;padding:16px;text-transform:uppercase;letter-spacing:.8px}
+.robbery-comparison th,.robbery-comparison td{padding:17px 14px;text-align:left;border-bottom:1px solid #dac0c5;vertical-align:middle}
+.robbery-comparison thead th{background:#3b2531;color:#fff2e8;font-size:.83em;font-weight:650}
+.robbery-comparison thead th:first-child{width:42%}
+.robbery-comparison td{font-size:1.15em;font-weight:750;text-align:center}
+.robbery-comparison tbody th{font-weight:650;font-size:.95em}
+.robbery-comparison tr:last-child>*{border-bottom:0}.robbery-comparison tbody tr:nth-child(even){background:rgba(59,37,49,.045)}
+.robbery-comparison .table-pending td{font-size:.78em;font-weight:500;color:#67535e}
+.robbery-comparison .table-note{font-size:.83em;color:#67535e;margin:20px 0 12px}
+.robbery-comparison .table-rule{color:#823745;font-size:.84em;text-decoration:underline;display:inline-block;padding:8px 0;min-height:44px;text-underline-offset:4px}
+.table-text{margin-bottom:28px;border-bottom:1px solid #d9bfc5;font-size:.9em}.table-text summary{cursor:pointer;padding:14px 0;min-height:44px;color:#743e52}.table-text p{margin-top:14px}
+.quiz-sheet{background:var(--paper);border:1px solid #f6ae87;color:var(--ink);padding:32px;border-radius:14px;font-size:var(--reader-size);line-height:1.8}
+.quiz-sheet .eyebrow{color:#823745}.quiz-sheet h2{font-size:1.7em;line-height:1.25;letter-spacing:-.5px;margin:12px 0 20px}
+.quiz-sheet a{color:#823745;text-decoration:underline;text-underline-offset:4px}
+.quiz-progress{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:30px;font-size:.77em;font-weight:650;color:#67535e}
+.quiz-progress progress{width:110px;max-width:40%;height:7px;accent-color:#b33d57;border-radius:99px;overflow:hidden}
+.quiz-progress progress::-webkit-progress-bar{background:#d9bfc5}.quiz-progress progress::-webkit-progress-value{background:#b33d57}
+.quiz-question{margin:0;padding:0;border:0;min-width:0}.quiz-question legend{font-size:1.25em;font-weight:750;line-height:1.5;padding:0;margin-bottom:24px;width:100%}
+.quiz-options{display:grid;gap:12px}
+.quiz-option{display:flex;align-items:flex-start;gap:14px;width:100%;text-align:left;padding:18px;background:transparent;color:var(--ink);border:1px solid #a67f90;border-radius:10px;font-size:.94em;line-height:1.65;min-height:64px}
+.quiz-option:hover:not(:disabled){background:#f6d9c8;border-color:#823745}
+.option-letter{display:grid;place-items:center;min-width:27px;height:27px;border:1px solid #a67f90;border-radius:7px;font-size:.73em;font-weight:750;flex-shrink:0;line-height:1;margin-top:1px}
+.quiz-option:disabled{cursor:default;opacity:1}.quiz-option.is-correct{background:rgba(125,220,138,.18);border:2px solid #3f7541;padding:17px}.quiz-option.is-wrong{background:rgba(237,78,158,.09);border:2px solid #a63d4c;padding:17px}
+.quiz-option small{display:block;margin-top:8px;font-size:.8em;font-weight:750}
+.quiz-feedback{margin:24px 0;padding:22px;border-left:4px solid #a34962;background:#f1dcd4;border-radius:0 10px 10px 0;font-size:.94em;line-height:1.8}
+.quiz-feedback p{margin:10px 0}.quiz-feedback a{font-size:.9em;display:inline-block;min-height:44px;padding:8px 0}
+.quiz-hint{font-size:.8em;color:#67535e;margin:22px 0 0}
+#quiz-current,#quiz-feedback,#quiz-result{scroll-margin-top:calc(var(--header) + 24px)}
+.quiz-review{padding-left:24px}.quiz-review li{padding:20px 0;border-top:1px solid #d9bfc5}.quiz-review strong{font-size:.95em}.quiz-review p{font-size:.9em}.quiz-review a{font-size:.85em;display:inline-block;padding:8px 0;min-height:44px}
+.practice-reading{padding:28px 0;border-bottom:1px solid #d9bfc5}.practice-reading h2{font-size:1.2em}.practice-reading details summary{min-height:44px;padding:10px 0;cursor:pointer;color:#823745}
+.static-reading{max-width:880px;margin:auto;padding:28px 24px;color:#fff2e8}.static-reading>.quiz-sheet{margin-top:26px}.static-reading .reader-tools{justify-content:flex-start}
+@media(max-width:1250px){.hero h1{font-size:66px}.hero{min-height:420px}}
+@media(min-width:761px) and (max-width:1020px){.hero{padding:32px}.hero h1{font-size:56px;max-width:90%}.hero p{font-size:17px}.hero-mark{width:44%;right:-8%;top:24%}.practice-invite{align-items:flex-start;flex-direction:column}}
+@media(max-width:760px){
+  .hero{min-height:0;padding:32px 24px}.hero h1{font-size:clamp(48px,12vw,64px);max-width:100%}.hero p{font-size:17px;max-width:27ch}.hero-mark{width:53%;right:-10%;height:52%;top:32%;opacity:.07}.hero-edition{margin-top:24px;font-size:11px}
+  .reader-tools{margin-bottom:22px;gap:5px}.reader-tools>span{flex:1 1 100%;margin-bottom:3px}.reader-tools output{margin-left:auto}.reader-size{min-height:44px}
+  .article-body{font-size:var(--reader-size);padding:26px 22px;max-width:100%}.article-body .examples{gap:14px}.article-body .example{padding:20px}
+  .practice-invite{padding:24px;align-items:flex-start;flex-direction:column;gap:22px}.practice-invite h2{font-size:26px}
+  .robbery-comparison{padding:20px 16px}.robbery-comparison table{min-width:360px}.robbery-comparison th,.robbery-comparison td{padding:15px 11px}
+  .quiz-sheet{padding:26px 20px}.quiz-question legend{font-size:1.15em}.quiz-option{padding:16px 14px;gap:10px}.quiz-option.is-correct,.quiz-option.is-wrong{padding:15px 13px}.quiz-feedback{padding:18px}.quiz-progress{gap:12px}.quiz-sheet h2{font-size:1.45em}
+}
+/* En móvil se ven ambos límites sin desplazar columnas. Los encabezados siguen accesibles. */
+@media screen and (max-width:600px){
+  .robbery-comparison .table-scroll{overflow:visible;border:0;border-radius:0}
+  .robbery-comparison table{display:block;min-width:0;width:100%;font-size:.89em}
+  .robbery-comparison caption{display:block;border-radius:10px;padding:16px;margin-bottom:16px;font-size:.78em;line-height:1.6}
+  .robbery-comparison thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+  .robbery-comparison tbody{display:block}
+  .robbery-comparison tbody tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid #ba9aa6;border-radius:10px;margin-bottom:14px;overflow:hidden;background:transparent}
+  .robbery-comparison tbody th{grid-column:1/-1;background:#3b2531;color:#fff2e8;font-size:.96em;padding:13px 15px;border:0}
+  .robbery-comparison tbody td{display:block;padding:15px 12px;font-size:1.2em;text-align:left;border:0;line-height:1.5;overflow-wrap:anywhere}
+  .robbery-comparison tbody td+td{border-left:1px solid #d9bfc5}
+  .robbery-comparison tbody td::before{content:attr(data-label);display:block;min-height:3.2em;font-size:12px;line-height:1.6;color:#67535e;font-weight:500;margin-bottom:8px}
+  .robbery-comparison .table-pending td{font-size:14px;line-height:1.6}
+}
+@media print{.reader-tools,.practice-invite{display:none!important}.hero,.article-body,.quiz-sheet,.robbery-comparison{background:white;color:black;border:0;padding:0}.hero-mark{display:none}.article-body p,.article-body h2,.article-body .example p,.article-body .example h3,.article-body .example.bad h3{color:black}.quiz-sheet a,.article-body a,.source-note summary{color:black}.robbery-comparison thead th{color:black;background:white}.table-scroll{overflow:visible}.robbery-comparison table{min-width:0}.quiz-sheet button{display:none}.static-reading{color:black}.quiz-sheet{font-size:12pt}}
