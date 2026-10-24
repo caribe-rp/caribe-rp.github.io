@@ -1039,22 +1039,22 @@ window.NORMATIVA={
             [
               "Robo a tienda + Porte ilegal",
               "—",
-              "$700.000 y 14 min"
+              "$200.000 y 14 min"
             ],
             [
               "Robo a tienda + Porte ilegal",
               "20 %",
-              "$560.000 y 11 min"
+              "$160.000 y 11 min"
             ],
             [
               "Homicidio de un carabinero + Secuestro",
               "—",
-              "$2.800.000 y 30 min (tope; suma 40)"
+              "$550.000 y 30 min (tope; suma 40)"
             ],
             [
               "Manejar bajo alcohol",
               "— + servicio",
-              "$200.000 y 4 tareas"
+              "$60.000 y 4 tareas"
             ]
           ]
         },
@@ -2393,7 +2393,7 @@ window.NORMATIVA={
         },
         {
           "t": "p",
-          "text": "Cargo si te detienen: [[codigo-penal|Robo a tienda]], $400.000 y 8 minutos. Después de un robo esperas 15 minutos para robar otra caja fuerte."
+          "text": "Cargo si te detienen: [[codigo-penal|Robo a tienda]], $100.000 y 8 minutos. Después de un robo esperas 15 minutos para robar otra caja fuerte."
         }
       ],
       "sources": [
@@ -2450,32 +2450,32 @@ window.NORMATIVA={
             [
               "Megavisión",
               "Asalto al canal con cuenta regresiva. Solo cuenta Carabineros para el mínimo.",
-              "Robo a Megavisión · $700.000 · 12 min"
+              "Robo a Megavisión · $175.000 · 12 min"
             ],
             [
               "Joyería",
               "Amenazar al vendedor y vaciar vitrinas.",
-              "Robo a joyería · $1.000.000 · 15 min"
+              "Robo a joyería · $200.000 · 15 min"
             ],
             [
               "PC Factory",
               "Ganzúa, hackeo de laptop y estantes.",
-              "Robo mayor · $700.000 · 12 min"
+              "Robo mayor · $175.000 · 12 min"
             ],
             [
               "Starken",
               "Ganzúa, alarma y paquetes aleatorios.",
-              "Robo mayor · $700.000 · 12 min"
+              "Robo mayor · $175.000 · 12 min"
             ],
             [
               "Ammu-Nation",
               "Vitrinas de armas, munición y chalecos.",
-              "Robo mayor · $700.000 · 12 min"
+              "Robo mayor · $175.000 · 12 min"
             ],
             [
               "Camión de químicos",
               "Interceptar el cargamento de ácidos.",
-              "Robo al camión de químicos · $700.000 · 12 min"
+              "Robo al camión de químicos · $175.000 · 12 min"
             ]
           ]
         },
@@ -2896,42 +2896,42 @@ window.NORMATIVA={
         [
           "mal_estacionado",
           "Mal estacionado",
-          30000,
+          10000,
           0,
           "Vehículo que obstruye o está en un lugar prohibido identificable."
         ],
         [
           "velocidad",
           "Exceso de velocidad",
-          50000,
+          20000,
           0,
           "Medición con radar u observación concreta frente a un límite señalado."
         ],
         [
           "sin_licencia",
           "Conducir sin licencia",
-          80000,
+          30000,
           0,
           "Conducir sin la licencia que corresponde, comprobada en el registro."
         ],
         [
           "temeraria",
           "Conducción temeraria",
-          120000,
+          45000,
           2,
           "Maniobra que crea un peligro concreto. Un roce por desincronización no basta."
         ],
         [
           "alcohol",
           "Manejar bajo alcohol o drogas",
-          200000,
+          60000,
           4,
           "Conducir con alcotest o test positivo, más observaciones anotadas."
         ],
         [
           "fuga_control",
           "Darse a la fuga de un control",
-          250000,
+          75000,
           5,
           "Evadir un control comunicado con claridad (luces, sirena, orden verbal)."
         ]
@@ -2943,28 +2943,28 @@ window.NORMATIVA={
         [
           "desorden",
           "Desórdenes o ruidos molestos",
-          40000,
+          15000,
           0,
           "Perturbación concreta y documentada. Estar presente no es desorden."
         ],
         [
           "identificarse",
           "Negarse a identificarse",
-          60000,
+          20000,
           2,
           "Negarse a un control fundado tras una petición clara y una oportunidad real de responder."
         ],
         [
           "amenazas_func",
           "Insultos o amenazas a un funcionario",
-          100000,
+          35000,
           3,
           "Amenaza o insulto IC dirigido a un funcionario. Reclamar o guardar silencio no lo es."
         ],
         [
           "resistencia",
           "Resistirse a la detención",
-          150000,
+          50000,
           5,
           "Oposición física activa a una detención fundada. Pedir explicaciones no es resistencia."
         ]
@@ -2976,21 +2976,21 @@ window.NORMATIVA={
         [
           "porte_ilegal",
           "Portar arma sin licencia",
-          300000,
+          100000,
           6,
           "Arma que requiere licencia sin licencia vigente."
         ],
         [
           "disparos",
           "Disparar en la vía pública",
-          250000,
+          90000,
           5,
           "Disparo injustificado acreditado. Se valora la defensa de la vida."
         ],
         [
           "arma_robada",
           "Arma con serie borrada o robada",
-          400000,
+          125000,
           8,
           "Serie alterada o evidencia de origen ilícito, no solo la falta de registro."
         ]
@@ -3002,21 +3002,21 @@ window.NORMATIVA={
         [
           "droga_menor",
           "Consumo o porte menor",
-          80000,
+          25000,
           2,
           "Consumo o porte sin evidencia de venta."
         ],
         [
           "microtrafico",
           "Venta de drogas (microtráfico)",
-          300000,
+          100000,
           8,
           "Venta observada o evidencia concreta de distribución individual."
         ],
         [
           "trafico",
           "Tráfico (gran cantidad o laboratorio)",
-          800000,
+          200000,
           15,
           "Producción en laboratorio o distribución organizada acreditada. Estar cerca de un laboratorio no basta."
         ]
@@ -3028,49 +3028,49 @@ window.NORMATIVA={
         [
           "robo_vehiculo",
           "Robo de vehículo",
-          250000,
+          80000,
           6,
           "Sustracción de un vehículo ajeno sin permiso del dueño."
         ],
         [
           "robo_tienda",
           "Robo a tienda (24/7, caja fuerte)",
-          400000,
+          100000,
           8,
           "Robo de cualquiera de las 13 tiendas con caja fuerte."
         ],
         [
           "robo_mayor",
           "Robo a Ammu-Nation, Starken o PC Factory",
-          700000,
+          175000,
           12,
           "Solo esas tres modalidades."
         ],
         [
           "robo_megavision",
           "Robo a Megavisión",
-          700000,
+          175000,
           12,
           "Participación en el robo al canal, incluidos apoyos."
         ],
         [
           "robo_quimicos",
           "Robo al camión de químicos",
-          700000,
+          175000,
           12,
           "Participación en el robo del cargamento. Tener un químico no prueba el robo."
         ],
         [
           "robo_joyeria",
           "Robo a joyería",
-          1000000,
+          200000,
           15,
           "Participación en el robo a la joyería."
         ],
         [
           "patente_falsa",
           "Patente falsa",
-          200000,
+          60000,
           3,
           "Uso consciente de una patente que no corresponde al vehículo."
         ]
@@ -3082,35 +3082,35 @@ window.NORMATIVA={
         [
           "lesiones",
           "Lesiones",
-          300000,
+          100000,
           6,
           "Daño corporal sin medio letal o sin intención acreditada de matar."
         ],
         [
           "agresion_func",
           "Agresión a un carabinero",
-          500000,
+          150000,
           10,
           "Ataque a un carabinero en servicio. Para PDI o SAMU se usa Lesiones."
         ],
         [
           "secuestro",
           "Secuestro",
-          800000,
+          200000,
           15,
           "Privar de libertad a alguien (incluye rehenes). Una custodia policial fundada no es secuestro."
         ],
         [
           "homicidio",
           "Homicidio",
-          1500000,
+          300000,
           20,
           "Derribar a alguien con medio letal e intención acreditada, sea reanimado o reaparezca."
         ],
         [
           "homicidio_func",
           "Homicidio de un carabinero",
-          2000000,
+          350000,
           25,
           "Lo mismo, contra un carabinero en servicio. No se acumula con Homicidio."
         ]
